@@ -38,6 +38,7 @@
         <poi.version>3.9</poi.version>
         <freemarker.version>2.3.20</freemarker.version>
         <httpclient.version>4.5.2</httpclient.version>
+        <httpcore.version>4.4.6</httpcore.version>
         <jsoup.version>1.10.3</jsoup.version>
 
         <!-- jdbc driver setting -->
@@ -84,6 +85,12 @@
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpclient</artifactId>
             <version>${httpclient.version}</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpcore -->
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpcore</artifactId>
+            <version>${httpcore.version}</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.jsoup/jsoup -->
         <dependency>
